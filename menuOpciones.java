@@ -22,7 +22,10 @@ public class menuOpciones {
 		case 1:
 			
 		case 2:
-			
+			System.out.println("Elige el primer numero ");
+			num1=sc.nextInt();
+			System.out.println("Elige el segundo numero ");
+			num2=sc.nextInt();
 		case 3:
 			
 		case 4:
