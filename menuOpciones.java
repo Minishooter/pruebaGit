@@ -30,6 +30,7 @@ public class menuOpciones {
 			num2=sc.nextInt();
 			total=num1*num2;
 			System.out.println("El resultado es: " + total);
+			break;
 		case 4:
 		
 		case 5:
