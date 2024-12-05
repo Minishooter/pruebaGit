@@ -27,7 +27,8 @@ public class menuOpciones {
 			System.out.println("Elige el segundo numero ");
 			num2=sc.nextInt();
 			total=num1-num2;
-			
+			System.out.println("El resultado de la resta es:" + total);
+			break;
 		case 3:
 			
 		case 4:
