@@ -6,7 +6,9 @@ public class menuOpciones {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		int num1,num2,opcion,total;
+
+		int num1,num2,total,opcion;
+
 		System.out.println("Que opcion quieres hacer? ");
 		System.out.println("1. Sumar ");
 		System.out.println("2. Restar ");
@@ -28,7 +30,13 @@ public class menuOpciones {
 			System.out.println("El resultado de la suma es: " +total);
 			break;
 		case 2:
-			
+			System.out.println("Elige el primer numero ");
+			num1=sc.nextInt();
+			System.out.println("Elige el segundo numero ");
+			num2=sc.nextInt();
+			total=num1-num2;
+			System.out.println("El resultado de la resta es:" + total);
+			break;
 		case 3:
 			
 		case 4:
